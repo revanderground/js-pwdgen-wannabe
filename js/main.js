@@ -1,9 +1,9 @@
 const userFirstName = prompt("Inserisci il tuo nome");
-const userLastName = prompt("Inserisci il tuo nome");
+const userLastName = prompt("Inserisci il tuo cognome");
 const userColor = prompt("Inserisci il tuo colore preferito");
 console.log(userFirstName, userLastName, userColor);
 
-let userPassword = userFirstName + userLastName +userColor + 22;
+let userPassword = userFirstName + userLastName +userColor + "22";
 console.log(userPassword);
 
 document.getElementById('user-first-name').innerHTML = userFirstName;
